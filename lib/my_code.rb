@@ -9,9 +9,9 @@ def map(block)
   array
 end
 
-def reduce(block, reduced=nil)
-  if reduced
-    value = reduced
+def reduce(block, starting_point = nil)
+  if starting_point  
+    value = starting_point
     index = 0
   else
     value = block[0]
