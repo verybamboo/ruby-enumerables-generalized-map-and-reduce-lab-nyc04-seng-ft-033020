@@ -15,7 +15,7 @@ def reduce(block, starting_point = nil)
     index = 0
   else
     value = block[0]
-    index = 0
+    index = 1
   end
   while index < block.length do
     value = yield(value, block[index])
