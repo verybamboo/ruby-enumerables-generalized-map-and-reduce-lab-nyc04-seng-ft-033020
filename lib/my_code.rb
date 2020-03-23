@@ -9,7 +9,7 @@ def map(block)
   array
 end
 
-def reduce(block, reduced = nil)
+def reduce(block, reduced=nil)
   if reduced
     value = reduced
     index = 0
