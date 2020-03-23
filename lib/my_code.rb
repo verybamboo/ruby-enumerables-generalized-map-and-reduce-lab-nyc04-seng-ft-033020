@@ -14,7 +14,7 @@ def reduce(block, reduced=nil)
     value = reduced
     index = 0
   else
-    value = block[0]
+    value = block[index]
     index = 0
   end
   while index < block.length do
